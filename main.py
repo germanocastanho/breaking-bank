@@ -1,3 +1,7 @@
+# Copyleft 🄯 2025, Germano Castanho
+# Free software under the GNU GPL v3
+
+
 import datetime
 
 WITHDRAWAL_LIMIT = 3
@@ -126,10 +130,10 @@ def main():
             display_statement(balance, statement=statement)
 
         elif option == "q":
-            print("\n" + "=" * 50)
+            print("\n" + "=" * 45)
             print("Thank you for using our banking system!")
             print("Goodbye! 👋")
-            print("=" * 50 + "\n")
+            print("=" * 45 + "\n")
             break
 
         else:
